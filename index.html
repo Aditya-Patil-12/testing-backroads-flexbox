@@ -1,0 +1,374 @@
+<!-- BackRoads Project Start Here  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BACKROADS || CSS FLEXBOX</title>
+    <!-- ADDING FAVICON -->
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+    <!-- font-awsome icons links  -->
+    <link rel="stylesheet" href="./fontawesome-free-6.5.2-web/css/all.css">
+    <!-- css style sheet  -->
+    <link rel="stylesheet" href="./Styles/style.css">
+    <script src="./JavaScript/n.js" defer></script>
+</head>
+<body>
+    <!-- Navabar -->
+     <nav class="navbar">
+        <div class="nav-center">
+            <!-- nav-header -->
+             <div class="nav-header">
+                <img src="./Images/logo.svg" alt="LOGO" class="nav-logo">
+
+                <button type="submit" class="nav-toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i> 
+                </button>             
+            </div>
+             <!-- end of nav header  -->
+              <!-- nav links -->
+            <div class="nav-links" id="nav-links">
+                <div>
+                    <a href="#home" class="nav-link scroll-link">Home</a>
+                </div>
+                <div>
+                    <a href="#about" class="nav-link scroll-link">About</a>
+                </div>
+            
+                <div>
+                    <a href="#services" class="nav-link scroll-link">Services</a>
+                </div>
+            
+                <div>
+                    <a href="#tours" class="nav-link scroll-link">Featured</a>
+                </div>
+            
+                <div>
+                    <a href="#gallery" class="nav-link scroll-link">Gallery</a>
+                </div>
+            </div>
+            <!-- end of  navlinks -->
+             <!-- nav-icons .....  -->
+            <div class="nav-icon">
+                        <a href="https://www.facebook.com" class="navbar-icon">            <i class="fa-brands fa-facebook"></i></a>
+            
+                        <a href="https://www.x.com" class="navbar-icon">            <i class="fa-brands fa-x-twitter"></i></a>
+            
+                        <a href="https://www.instagram.com/" class="navbar-icon"> <i class="fa-brands fa-instagram"></i></a>
+            
+            </div>
+             <!-- end of nav-icons  -->
+        </div>
+     </nav>
+    <!-- Header Section Start Here  -->
+    <header>
+        <div class="hero" id="home">
+            <h1>Continue Exploring</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis repellat veritatis, voluptatum modi fugiat sequi impedit minus velit, sed ex ducimus suscipit laboriosam pariatur
+            </p>
+
+            </div><a href="#tours" class="btn" onclick="tours">EXPLORE TOURS</a>
+        </div>
+    </header>
+
+<!-- ====================================================================================================== -->
+
+    <!-- About Us .......... -->
+    <section class="section About" id="about">
+        <!-- title...... -->
+        <div class="section-title about-banner">
+            <h1>about <span class="special">us</span></h1>
+        </div>
+
+    <div class="section-center about-info">
+            <article class="first-info">
+                <div class="img-banner">
+                    <img src="./Images/about.jpeg" alt="">
+                </div>
+            </article>
+
+            <article class="second-info">
+            <h1>Explore the Difference</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit culpa consequuntur alias mollitia? Repudiandae harum repellat consequatur nesciunt impedit quas!
+                </p>
+                <br>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam ex a eaque vel eligendi odit voluptates sit placeat ipsa?
+                </p>
+                <button href="#" class="btn">READ MORE</button>
+            </article>
+        </div>
+    </section>
+<!-- ============================================================================================================== -->
+
+    <!-- Services Section  -->
+    <section class="section Services" id="services">
+
+        <!-- banner... -->
+        <article class="services-banner section-title">
+            <h1>Our <span class="special">Services</span></h1>
+        </article>
+
+        <!-- information -->
+        <article class="service-info section-center">
+            
+            <div class="icon-cont first-icon">
+                <div class="icon">
+                    <i class="fa-solid fa-wallet"></i>
+                </div>
+                <div>
+                    <h3  class="heading">saving money</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, velit.</p>
+                </div>
+            </div>
+            <div class="icon-cont second-icon">
+                <div class="icon">  
+                    <i class="fa-solid fa-tree"></i>
+                </div>
+                <div>
+                    <h3 class="heading">endless hiking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, iure.</p>
+                </div>
+            </div>
+            <div class="icon-cont third-info">
+                <div class="icon">
+                <i class="fa-solid fa-socks"></i>
+                </div>
+                <div>
+                    <h3 class="heading">amazing comfort</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, in.</p>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!-- =================================================================================================== -->
+
+    <!-- Tours card -->
+    <section class="section tours" id="tours">
+        <!-- section heading  -->
+         <div class="tours-banner section-title">
+            <h1 >featured <span class="special">Tours</span></h1>
+         </div>
+         <!-- end of the section heading . -->
+
+         <!-- tour cards start  -->
+        <div class="section-center tours-info">
+            <!-- start of a card -->
+            <article class="card">
+                <div class="card-img">
+                    <p class="tour-date">August 26th,2024</p>
+                    <img src="./Images/tour-1.jpeg" alt="tour-1" class="tour-img">
+                </div>
+                
+                <div class="adv-info">
+                    <h1 class="heading">Assam Adventure</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsum.
+                    </p>
+                </div>
+
+            <div class="tour-footer">
+                <div class="tour-country country-1"> 
+                    <i class="fa-solid fa-map"></i>
+                </div> 
+            <div class="tour-timing-expenses">
+                <div class="tour-timing">
+                    <p>6 Days</p>
+                </div>    
+                <div class="tour-expense">
+                    From $2100
+                </div>
+           </div>
+            </div>
+             </article>
+            <!-- end of a card -->
+            
+    <!-- start of a card -->
+            <article class="card">
+                <div class="card-img">
+                    <p class="tour-date">October 1st, 2024</p>
+                    <img src="./Images/tour-2.jpg" alt="tour-2" class="tour-img">
+                </div>
+                
+                <div class="adv-info">
+                    <h1 class="heading">Lakshawdeep Island </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsum.
+                    </p>
+                </div>
+
+            <div class="tour-footer">
+                <div class="tour-country country-2"> 
+                    <i class="fa-solid fa-map"></i>
+                </div> 
+            <div class="tour-timing-expenses">
+                <div class="tour-timing">
+                    <p>5 Days</p>
+                </div>    
+                <div class="tour-expense">
+                    From $3000
+                </div>
+           </div>
+            </div>
+             </article>
+            <!-- end of a card -->
+            
+    <!-- start of a card -->
+            <article class="card">
+                <div class="card-img">
+                    <p class="tour-date">September 26th,2024</p>
+                    <img src="./Images/tour-3.jpeg" alt="tour-3" class="tour-img">
+                </div>
+                
+                <div class="adv-info">
+                    <h1 class="heading">Explore Tokyo</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsum.
+                    </p>
+                </div>
+
+            <div class="tour-footer">
+                <div class="tour-country country-3"> 
+                    <i class="fa-solid fa-map"></i>
+                </div> 
+            <div class="tour-timing-expenses">
+                <div class="tour-timing">
+                    <p>10 Days</p>
+                </div>    
+                <div class="tour-expense">
+                    From $4000
+                </div>
+           </div>
+            </div>
+             </article>
+            <!-- end of a card -->
+
+    <!-- start of a card -->
+            <article class="card">
+
+                <div class="card-img">
+                    <p class="tour-date">October 1st,2024</p>
+                    <img src="./Images/tour-4.jpeg" alt="tour-4" class="tour-img">
+                </div>
+                
+                <div class="adv-info">
+                    <h1 class="heading">Kenya Highlights</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsum.
+                    </p>
+                </div>
+
+            <div class="tour-footer">
+                <div class="tour-country country-4"> 
+                    <i class="fa-solid fa-map"></i>
+                </div> 
+                <div class="tour-timing-expenses">
+                    <div class="tour-timing">
+                        <p>22 Days</p>
+                    </div>    
+                    <div class="tour-expense">
+                        From $7000
+                    </div>
+                </div>
+            </div>
+             </article>
+            <!-- end of a card -->
+         </div>
+         <div class="tour-btn">
+             <button class="btn">ALL TOURS</button>
+         </div>
+    </section>
+
+<!-- ===================================== -->
+    <!-- Gallery ============ -->
+    <section class="gallery" id="gallery">
+       <div class="section-title gallery-banner">
+        <h1>Our <span class="special">Gallery</span></h1>
+       </div>
+       
+       <!-- gallery phtots start here  -->
+        <div class="gallery-img-cont">
+            <div class="img-cont img-cont1">
+                <img src="./Images/tour-1.jpeg" alt="gallery-img-1" class="gallery-img">
+                <a href="#" class="gallery-icon"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="img-cont img-cont2">
+                <img src="./Images/tour-2.jpg" alt="galley-img-2" class="gallery-img">
+                <a href="#" class="gallery-icon"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="img-cont img-cont3">
+                <img src="./Images/tour-3.jpeg" alt="galley-img-3" class="gallery-img">
+                <a href="#" class="gallery-icon"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="img-cont img-cont4">
+                <img src="./Images/tour-4.jpeg" alt="gallery-img-4" class="gallery-img">
+                <a href="#" class="gallery-icon"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="img-cont img-cont5">
+                <img src="./Images/tour-5.jpeg" alt="gallery-img-5" class="gallery-img">
+                <a href="#" class="gallery-icon"><i class="fas fa-search"></i></a>
+            </div>
+            <div class="img-cont img-cont6">
+                <img src="./Images/tour-6.jpeg" alt="gallery-img-6" class="gallery-img">
+                <a href="#" class="gallery-icon"><i class="fas fa-search"></i></a> 
+            </div>
+        </div>
+    </section>
+<!-- ================================================================================================ -->
+    <!-- contact Section or Updates Section  -->
+     <section class="section contact">
+        <article class="section-title">
+            <h3>Want Latest <span class="special">Tour Info & Updates</span>?</h3>
+        </article>
+
+        <article class="section-center">
+            <form action="" class="contact-form">
+                <div>
+                    <input type="email" placeholder="YOUR EMAIL" class="form-entity">
+                </div>
+                <div>
+                    <button type="submit" >SUBMIT </button>
+                </div>
+            </form>
+        </article>
+     </section>
+
+<!-- ============================================================================================ -->
+     <!-- Footer .......... -->
+      <footer class="section footer">
+        <article class="section-center footer-center">
+            <div class="small-nav">
+                <div>
+                    <a href="#home">Home</a>
+                </div>
+                <div>
+                    <a href="#about">About</a>
+                </div>
+            
+                <div>
+                    <a href="#services">Services</a>
+                </div>
+            
+                <div>
+                    <a href="#tours">Featured</a>
+                </div>
+            
+                <div>
+                    <a href="#gallery">Gallery</a>
+                </div>
+            </div>
+            <div class="footer-icon">
+                <a href="https://www.facebook.com">            <i class="fa-brands fa-facebook"></i></a>
+    
+                <a href="https://www.x.com">            <i class="fa-brands fa-x-twitter"></i></a>
+    
+                <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i></a>
+    
+            </div>
+            <div class="footer-info">
+                <p >CopyRight &copy; Backroads Travel Tours Company 2024. All Rights Reserved</p>
+            </div>
+        </article>
+      </footer>
+          <!-- Java Script  -->
+    <!-- <script src="./JavaScript/app.js" defer></script> -->
+</body>
+</html>
