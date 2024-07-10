@@ -1,6 +1,7 @@
 // select button and links
 const navBtn = document.getElementById("nav-toggle");
 const links = document.getElementById("nav-links");
+const navbar = document.querySelector("#navbar");
 console.log(links);
 // add event listener
 navBtn.addEventListener("click", () => {
@@ -23,4 +24,13 @@ scrollLinks.forEach((link) => {
       behavior: "smooth",
     });
   });
+});
+
+// add fixed class to navbar
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 74.85) {
+    navbar.classList.add("navbar-fixed");
+  } else {
+    navbar.classList.remove("navbar-fixed");
+  }
 });
